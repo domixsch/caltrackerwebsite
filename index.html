@@ -46,8 +46,55 @@
         .description {
             font-size: 1.2rem;
             max-width: 600px;
-            margin: 0 auto 3rem;
+            margin: 0 auto 2rem;
             text-align: center;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stars {
+            display: flex;
+            gap: 0.2rem;
+        }
+
+        .star {
+            color: #FFD700;
+            font-size: 1.5rem;
+        }
+
+        .rating-text {
+            font-size: 1.1rem;
+            color: #1b5e20;
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: #2e7d32;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 1rem 0 3rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button:hover {
+            background-color: #1b5e20;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .download-button:active {
+            transform: translateY(0);
         }
 
         .screenshots {
@@ -96,6 +143,17 @@
             <p class="description">
                 Tracke deine Kalorien und Schritte einfach und effektiv. Mit CalTracker behältst du den Überblick über deine Ernährung und Bewegung - von der Kalorienaufnahme bis zur täglichen Schrittzahl. Passe dein persönliches Kalorienziel flexibel an und erreiche deine Traumfigur schneller. Die intuitive Benutzeroberfläche macht das Tracking zum Kinderspiel, während du deine Fortschritte in Echtzeit verfolgen kannst. Starte noch heute deine Reise zu einem gesünderen Lebensstil.
             </p>
+            <div class="rating">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <span class="rating-text">4.8 (2.5k Bewertungen)</span>
+            </div>
+            <a href="#" class="download-button">Jetzt herunterladen</a>
         </header>
 
         <div class="screenshots">
